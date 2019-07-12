@@ -66,7 +66,7 @@
           <entry key="gitignore" value="5" />
           <entry key="js" value="110" />
           <entry key="json" value="153" />
-          <entry key="txt" value="36" />
+          <entry key="txt" value="54" />
           <entry key="yml" value="6" />
         </counts>
       </usages-collector>
@@ -76,7 +76,7 @@
           <entry key="Dockerfile" value="188" />
           <entry key="JSON" value="153" />
           <entry key="JavaScript" value="110" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="65" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -145,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buildspec.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="425">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -213,9 +213,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1234" />
-    <option name="y" value="-35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1869" />
     <option name="width" value="1941" />
     <option name="height" value="2112" />
   </component>
@@ -319,7 +318,7 @@
       <workItem from="1560822720242" duration="7207000" />
       <workItem from="1561858388403" duration="3785000" />
       <workItem from="1561947892867" duration="18015000" />
-      <workItem from="1562899879352" duration="2326000" />
+      <workItem from="1562899879352" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="Add docker and buildspec">
       <created>1562903958554</created>
@@ -328,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562903958555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed buildspec.">
+      <created>1562905567181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562905567181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32908000" />
+    <option name="totallyTimeSpent" value="33855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,10 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <frame x="1246" y="0" width="1294" height="1408" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.066981874" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13524264" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -361,7 +367,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3174727" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3192157" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -375,7 +381,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add docker and buildspec" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add docker and buildspec" />
+    <MESSAGE value="Fixed buildspec." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed buildspec." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.html">
@@ -448,8 +455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildspec.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="425">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
