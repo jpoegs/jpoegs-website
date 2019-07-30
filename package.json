@@ -5,8 +5,21 @@
     "build": "next build src",
     "build:dev": "NODE_ENV=dev npm run build",
     "build:beta": "NODE_ENV=beta npm run build",
-    "build:prod": "NODE_ENV=prod npm run build",
+    "build:prod": "NODE_ENV=production npm run build",
     "start": "node server/server.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "css-loader": "^3.0.0",
+    "dotenv": "^8.0.0",
+    "express-favicon": "^2.0.1",
+    "next": "^9.0.0",
+    "nginx": "0.0.0",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "serve": "^11.1.0",
+    "webpack": "^4.35.3"
+  }
 }
