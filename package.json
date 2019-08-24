@@ -1,5 +1,6 @@
 {
   "name": "jpoegs",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build src",
@@ -9,6 +10,8 @@
     "start": "node server/server.js"
   },
   "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/styles": "latest",
     "@zeit/next-css": "^1.0.1",
     "css-loader": "^3.0.0",
     "dotenv": "^8.0.0",
@@ -23,3 +26,4 @@
     "webpack": "^4.35.3"
   }
 }
+ 
