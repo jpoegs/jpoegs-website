@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4a0b54e-3bbe-4a07-919c-3c7df6d54f08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +38,7 @@
           <entry key="html" value="3" />
           <entry key="ico" value="2" />
           <entry key="js" value="29" />
-          <entry key="json" value="9" />
+          <entry key="json" value="10" />
           <entry key="md" value="5" />
           <entry key="svg" value="1" />
           <entry key="yml" value="3" />
@@ -53,7 +50,7 @@
           <entry key="Dockerfile" value="2" />
           <entry key="HTML" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JSON" value="9" />
+          <entry key="JSON" value="10" />
           <entry key="JavaScript" value="29" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="SVG" value="1" />
@@ -74,7 +71,7 @@
           <entry key="js" value="213" />
           <entry key="json" value="327" />
           <entry key="txt" value="54" />
-          <entry key="yml" value="56" />
+          <entry key="yml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -84,25 +81,13 @@
           <entry key="JSON" value="327" />
           <entry key="JavaScript" value="213" />
           <entry key="PLAIN_TEXT" value="65" />
-          <entry key="YAML" value="56" />
+          <entry key="YAML" value="57" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/head.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,11 +135,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildspec.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="442">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/imagedefintions.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -222,6 +216,7 @@
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/buildspec.yml" />
+        <option value="$PROJECT_DIR$/imagedefintions.json" />
       </list>
     </option>
   </component>
@@ -433,7 +428,7 @@
       <workItem from="1562899879352" duration="46582000" />
       <workItem from="1564975175808" duration="5845000" />
       <workItem from="1566075229863" duration="1804000" />
-      <workItem from="1566225508928" duration="1763000" />
+      <workItem from="1566225508928" duration="4016000" />
     </task>
     <task id="LOCAL-00001" summary="Add docker and buildspec">
       <created>1562903958554</created>
@@ -470,11 +465,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564497262150</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed buildspec.">
+      <created>1566679781035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566679781035</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed buildspec.">
+      <created>1566684275707</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566684275707</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86576000" />
+    <option name="totallyTimeSpent" value="88829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -487,6 +496,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="355" y="99" width="1932" height="1025" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6483705" visible="true" weight="0.13298152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -692,8 +702,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buildspec.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="442">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagedefintions.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
