@@ -16,7 +16,7 @@
     "css-loader": "^3.0.0",
     "dotenv": "^8.0.0",
     "express-favicon": "^2.0.1",
-    "next": "^9.0.0",
+    "next": "^11.1.0",
     "nginx": "0.0.0",
     "path": "^0.12.7",
     "react": "^16.8.6",
